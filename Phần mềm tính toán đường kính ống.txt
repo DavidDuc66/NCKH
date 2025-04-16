@@ -1,0 +1,59 @@
+B1: Input hệ thống mạng lưới epanet và các ống mẫu có thể lắp đặt 
+B2: Kiểm tra mạng lưới có bao nhiêu ống 
+B3: Gán các đường kính ống ban đầu là 300 
+B3_1: check pattern và lựa chọn pattern giờ cao điểm 
+B4: chạy thuỷ lực mạng lưới và xuất kết quả lưu lượng ống
+B5: sử dụng công thức D=căn(Q) để tính các đường kính ống  
+B6: chuyển các đường kính ống đã tính toán thành giá trị thực tế và gán vào giá trị của mạng lưới ứng với từng ống 
+B7: kiểm tra số lượng  các ống có đường kính thực tế thay đổi  
+B8: lặp lại từ bước B4 tới B7 cho tới khi số lượng các đường kính ống gán thay đổi bé hơn  
+
+
+%Input hệ thống mạng lưới epanet và các ống mẫu có thể lắp đặt 
+start_toolkit;
+d=epanet('FILEGOCCUADUY.inp');
+D_mau=[100 150 200 250 300 350 400 450 500];
+LL=[];
+D_chon=[];
+D_tt=[];
+D_ld=[];
+KT=[];
+so_luong=10;
+P=[];
+step=0;
+
+%khảo sát số lượng ống và gán các đường kính ống ban đầu là 300
+LTT=d.getLinkNameID;
+n=d.getLinkCount;
+d.setLinkDiameter(1:n,300*ones(1,n));
+
+%check pattern và lựa chọn pattern giờ cao điểm 
+P=d.getPattern;
+[~,i]=max(sum(P, 1));
+
+%=========================================================================
+%chạy thuỷ lực mạng lưới và xuất kết quả lưu lượng ống
+hyd_res_2 = d.getComputedTimeSeries;
+while so_luong > 0 && step < 100
+LL=hyd_res_2.Flow(i,:);
+D_ld=d.getLinkDiameter;
+
+%sử dụng công thức D=căn(Q) để tính các đường kính ống
+D_tt=sqrt(abs(LL/1000))*1000;
+
+%tính toán D ống và gán vào giá trị thực tế 
+[~, idx] = min(abs(D_tt - D_mau.'));
+D_chon = D_mau(idx)
+d.setLinkDiameter(1:n,D_chon);
+hyd_res_2 = d.getComputedTimeSeries;
+
+%kiểm tra số lượng  các ống có đường kính thực tế thay đổi 
+KT=abs(D_ld-D_chon)
+D_ld=D_chon;
+so_luong = nnz(KT);
+step=step+1;
+end
+d.saveInputFile('filehoanthanh.inp');
+
+
+

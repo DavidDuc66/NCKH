@@ -1,0 +1,186 @@
+B1:chon nút có entropy lớn nhất (110) và xác định những vị trí bị lặp
+B2:tinh entropy cua tất cả các nút còn lại trên những giá trị bị lặp 
+B3:tinh MI cua nut " được chọn " với tất cả các nút còn lại trên những giá trị bị lặp 
+B4:lấy entropy của mỗi nút chia cho MI của nút đó với nút "được chọn"
+B5:lấy kết quả lớn nhất vào nút được chọn tiếp theo
+B6: xuất giá trị bị lặp lại và tính phần trăm chính xác 
+B7 nếu độ chính xác là 100% tiếp B8. B2
+B8 xuất giá trị nút được chọn và xuất kết quả chính xác
+
+%lamtron=========================================
+M1=round(M1,0)
+label = [2];
+dochinhxac=[];
+
+%tao M5 (lưu lượng rò rỉ 5l/s)
+K_L=[];
+nj = 122;
+    for i=1:nj
+        M5(:,i)=M1(:,i*5-3)
+    end
+%=======================================================
+%tínhentropylúc đầu  
+mau = 1:1:122;
+entr=[];
+for i=1:nj
+	entr(i,1)=entropy (M5(i,mau));
+end
+
+%xacdinhnutcoentropylonnhat
+find(entr(1:122,1)==max(entr(1:122,1)))
+  
+%xuatgiatribilapvatinhphantramchinhxac
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+
+%tinhdochinhxac
+sizeMau = size(dup)
+sz = sizeMau (2)
+dcx=(122-sz+1)/122;
+dochinhxac=[dochinhxac,dcx]
+
+%=======================================================
+%tinhentropycuatatcacacnut(tainhungvitribilap)
+mau = dup;
+giatribilap=[];
+entr=[];
+for i=1:nj
+	if ~ismember(i,[K_L])
+		entr(i,1)=entropy (M5(i,mau));
+	end
+end
+
+%tinhMIcuatatcacacnutsovoinutduocchon(tainhugvitribilap)
+sizeMau = size(mau)
+sz = sizeMau (2)
+x = []
+matrix = []
+
+
+for i=1:sz
+    x(i) = 1/sz
+end
+
+for i=1:122
+    if ismember(i, K_L)
+    matrix = [matrix; M5(i,mau)]
+    end
+end
+
+for row=1:122
+    array = M5(row, mau);
+
+    if ~ismember(row, K_L)
+        MI(row) = mutualinfo([matrix' array'], x,[1 label]);
+    else 
+        MI(row)=0;
+    end
+end
+
+%tinhentropychiaMI
+result= [];
+MI=MI';
+for i=1:122
+      if ~ismember(i,[K_L])
+       		 A=entr(i,1)
+       		 B=MI(i,1)
+       	 	 C=A/B
+        	 result(i)=C
+    end
+end
+result=result'
+
+%luaranutcoketqualonnhatvaganvaonutduocchon
+find(result(1:122,1)==max(result(1:122,1)))
+
+%xuatgiatribilapvatinhphantramchinhxac
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+giatribilap=mau(w)
+mau=mau(dup)
+label=[1 label]
+
+%tinhdochinhxac
+sizeMau = size(mau)
+sz = sizeMau (2)
+dcx=(122-sz+1)/122;
+dochinhxac=[dochinhxac,dcx]
+
+%====================================================
+%tinhentropycuatatcacacnut(tainhungvitribilap)
+entr=[];
+for i=1:nj
+	if ~ismember(i,[K_L])
+		entr(i,1)=entropy (M5(i,mau));
+	end
+end
+
+%tinhMIcuatatcacacnutsovoinutduocchon(tainhugvitribilap)
+sizeMau = size(mau)
+sz = sizeMau (2)
+x = []
+matrix = []
+MI=[]
+for i=1:sz
+    x(i) = 1/sz
+end
+
+for i=1:122
+    if ismember(i, K_L)
+    matrix = [matrix; M5(i,mau)]
+    end
+end
+
+for row=1:122
+    array = M5(row, mau);
+
+    if ~ismember(row, K_L)
+        MI(row) = mutualinfo([matrix' array'], x,[1 label]);
+    else 
+        MI(row)=0;
+    end
+end
+
+%tinhentropychiaMI
+result= [];
+MI=MI';
+for i=1:122
+      if ~ismember(i,[K_L])
+      	  if MI(i)==0
+	  	result(i)=0
+	  else
+       	  	A=entr(i,1)
+       	  	B=MI(i,1)
+	  	C=A/B
+         	result(i)=C
+	end	
+    end
+end
+result=result'
+
+%luaranutcoketqualonnhatvaganvaonutduocchon
+find(result(1:122,1)==max(result(1:122,1)))
+
+%xuatgiatribilapvatinhphantramchinhxac
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+giatribilap=mau(w)
+mau=mau(dup)
+label=[1 label]
+
+%tinhdochinhxac
+sizeMau = size(mau)
+sz = sizeMau (2)
+dcx=(122-sz+1)/122;
+dochinhxac=[dochinhxac,dcx]
+====================================================
+

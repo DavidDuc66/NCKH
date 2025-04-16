@@ -1,0 +1,47 @@
+%chu thích ( dùng để tạo ra bảng giá trị áp suất phục vụ cho việc tính toán E và MI ) 
+%NTT: tên các nút tính toán
+%KQ: Độ chênh lệch áp lực
+%KQRR: Kết quả áp lực khi có rò rỉ
+
+
+%chay file du lieu
+start_toolkit;
+d=epanet('FILEGOCCUADUY.inp');
+NTT=d.getNodeJunctionNameID;
+Delta=[];
+KQ=[];
+KBN=[];
+KQRR=[];
+
+%gan pattern ro ri 
+d.getTimeSimulationDuration; 
+TG=(ans/3600) +1;
+patternID = 'RR';
+patternMult = ones(1,TG);
+patternIndex = d.addPattern(patternID, patternMult);
+
+%tinhtoanthuyluc luc chua gan ro ri
+J=d.getNodeJunctionIndex;
+hyd_res_2 = d.getComputedTimeSeries;
+KB0=hyd_res_2.Pressure(1,J); %1 la gio thap diem
+KB0=KB0';
+
+%thuat toan cho tung nut
+for i=J
+LR=[5 10];
+%LR=[5 10 20 40 60];
+	for LL=LR;
+		d.addNodeJunctionDemand(i, LL, 'RR', 'Ro Ri');
+		hyd_res_2 = d.getComputedTimeSeries;
+		KB1=hyd_res_2.Pressure(1,J); 
+		KB1=KB1';
+		KR=[KR KB1]; %KR la ap suat voi kich ban ro ri
+		KBN=KB1-KB0; %KBN chenh lech ap suat voi kich ban ko ro ri
+		Delta=[Delta KBN];
+		d.addNodeJunctionDemand(i,-LL, 'RR', 'Ro Ri');
+	end
+	KQ=[KQ Delta]; %KQ la tong hop chenh lech ap suat tai mot nut
+	KQRR=[KQRR KR]; %KQRR la tong hop ap suat tai mot nut voi kich ban ro ri
+	KR=[];
+	Delta=[];
+end

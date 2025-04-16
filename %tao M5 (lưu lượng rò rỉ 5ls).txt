@@ -1,0 +1,112 @@
+%tao M5 (lưu lượng rò rỉ 5l/s)
+K_L=[];
+nj = 122;
+    for i=1:nj
+        M5(:,i)=M1(:,i*5-4)
+    end
+%=======================================================
+%tinh entropy 
+mau = 1:1:122;
+entr=[];
+for i=1:nj
+entr(i,1)=entropy (M5(i,mau));
+end
+
+%tim nut co entropy ap suat cao nhat
+
+find(entr(1:122,1)==max(entr(1:122,1)))
+
+%ans = 110
+
+%tim so nut bi lap lai
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+%=======================================================
+%tinh entropy 
+mau = dup;
+entr=[];
+for i=1:nj
+if ~ismember(i,[K_L])
+entr(i,1)=entropy (M5(i,mau));
+end
+end
+
+%tim nut co entropy ap suat cao nhat
+
+find(entr(1:122,1)==max(entr(1:122,1)))
+K=ans(1)
+K_L=[K_L K]
+%tim so nut bi lap lai
+
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+
+mau=mau(dup)
+%=======================================================
+%tinh entropy 
+entr=[];
+for i=1:nj
+if ~ismember(i,[K_L])
+entr(i,1)=entropy (M5(i,mau));
+end
+end
+
+%tim nut co entropy ap suat cao nhat
+
+find(entr(1:122,1)==max(entr(1:122,1)))
+K=ans(1)
+K_L=[K_L K]
+%tim so nut bi lap lai
+
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+
+mau=mau(dup)
+%=======================================================
+%tinh entropy 
+mau = dup;
+entr=[];
+for i=1:nj
+if ~ismember(i,[K_L])
+entr(i,1)=entropy (M5(i,mau));
+end
+end
+
+%tim nut co entropy ap suat cao nhat
+
+find(entr(1:122,1)==max(entr(1:122,1)))
+K=ans(1)
+K_L=[K_L K]
+%tim so nut bi lap lai
+
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+
+mau=mau(dup)
+%=======================================================
+%tinh entropy 
+entr=[];
+for i=1:nj
+if ~ismember(i,[K_L])
+entr(i,1)=entropy (M5(i,mau));
+end
+end
+
+%tim nut co entropy ap suat cao nhat
+
+find(entr(1:122,1)==max(entr(1:122,1)))
+K=ans(1)
+K_L=[K_L K]
+%tim so nut bi lap lai
+
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+
+mau=mau(dup)

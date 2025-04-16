@@ -1,0 +1,179 @@
+ chú thích: FIle tính toán E và MI theo SN  
+
+%lamtron=========================================
+M1=round(M1,0)
+label = [2];
+dochinhxac=[];
+
+%tao M5 (lưu lượng rò rỉ 5l/s)
+K_L=[];
+nj = SN;
+    for i=1:nj
+        M5(:,i)=M1(:,i*5-4)
+    end
+%=======================================================
+%tínhentropylúc đầu  
+mau = 1:1:nj;
+entr=[];
+for i=1:nj
+	entr(i,1)=entropy (M5(i,mau));
+end
+
+%xacdinhnutcoentropylonnhat
+find(entr(1:nj,1)==max(entr(1:nj,1)))
+  
+%xuatgiatribilapvatinhphantramchinhxac
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+
+%tinhdochinhxac
+sizeMau = size(dup)
+sz = sizeMau (2)
+dcx=(nj-sz+1)/nj;
+dochinhxac=[dochinhxac,dcx]
+
+%=======================================================
+%tinhentropycuatatcacacnut(tainhungvitribilap)
+mau = dup;
+giatribilap=[];
+entr=[];
+for i=1:nj
+	if ~ismember(i,[K_L])
+		entr(i,1)=entropy (M5(i,mau));
+	end
+end
+
+%tinhMIcuatatcacacnutsovoinutduocchon(tainhugvitribilap)
+sizeMau = size(mau)
+sz = sizeMau (2)
+x = []
+matrix = []
+
+
+for i=1:sz
+    x(i) = 1/sz
+end
+
+for i=1:nj
+    if ismember(i, K_L)
+    matrix = [matrix; M5(i,mau)]
+    end
+end
+
+for row=1:nj
+    array = M5(row, mau);
+
+    if ~ismember(row, K_L)
+        MI(row) = mutualinfo([matrix' array'], x,[1 label]);
+    else 
+        MI(row)=0;
+    end
+end
+
+%tinhentropychiaMI
+result= [];
+MI=MI';
+for i=1:nj
+      if ~ismember(i,[K_L])
+       		 A=entr(i,1)
+       		 B=MI(i,1)
+       	 	 C=A/B
+        	 result(i)=C
+    end
+end
+result=result'
+
+%luaranutcoketqualonnhatvaganvaonutduocchon
+find(result(1:nj,1)==max(result(1:nj,1)))
+
+%xuatgiatribilapvatinhphantramchinhxac
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+giatribilap=mau(w)
+mau=mau(dup)
+label=[1 label]
+
+%tinhdochinhxac
+sizeMau = size(mau)
+sz = sizeMau (2)
+dcx=(nj-sz+1)/nj;
+dochinhxac=[dochinhxac,dcx]
+
+%====================================================
+%tinhentropycuatatcacacnut(tainhungvitribilap)
+entr=[];
+for i=1:nj
+	if ~ismember(i,[K_L])
+		entr(i,1)=entropy (M5(i,mau));
+	end
+end
+
+%tinhMIcuatatcacacnutsovoinutduocchon(tainhugvitribilap)
+sizeMau = size(mau)
+sz = sizeMau (2)
+x = []
+matrix = []
+MI=[]
+for i=1:sz
+    x(i) = 1/sz
+end
+
+for i=1:nj
+    if ismember(i, K_L)
+    matrix = [matrix; M5(i,mau)]
+    end
+end
+
+for row=1:nj
+    array = M5(row, mau);
+
+    if ~ismember(row, K_L)
+        MI(row) = mutualinfo([matrix' array'], x,[1 label]);
+    else 
+        MI(row)=0;
+    end
+end
+
+%tinhentropychiaMI
+result= [];
+MI=MI';
+for i=1:nj
+      if ~ismember(i,[K_L])
+      	  if MI(i)==0
+	  	result(i)=0
+	  else
+       	  	A=entr(i,1)
+       	  	B=MI(i,1)
+	  	C=A/B
+         	result(i)=C
+	end	
+    end
+end
+result=result'
+
+%luaranutcoketqualonnhatvaganvaonutduocchon
+find(result(1:nj,1)==max(result(1:nj,1)))
+
+%xuatgiatribilapvatinhphantramchinhxac
+K=ans(1)
+K_L=[K_L K]
+A=M5(K,mau)
+[v, w] = unique( A, 'stable' );
+dup = setdiff( 1:numel(A), w )
+giatribilap=mau(w)
+mau=mau(dup)
+label=[1 label]
+
+%tinhdochinhxac
+sizeMau = size(mau)
+sz = sizeMau (2)
+dcx=(nj-sz+1)/nj;
+dochinhxac=[dochinhxac,dcx]
+%====================================================
+

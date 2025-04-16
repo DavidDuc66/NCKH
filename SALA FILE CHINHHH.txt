@@ -1,0 +1,1056 @@
+[TITLE]								
+								
+								
+[JUNCTIONS]								
+;ID              	Elev        	Demand      	Pattern         					
+ SBJ1            	0	3.5875	CHCC            	;				
+ SBJ2            	0	3.5875	CHCC            	;				
+ SBJ3            	0	3.5875	CHDV            	;				
+ SBJ4            	0	0	                	;				
+ SBJ5            	0	4.745	CHCC            	;				
+ SBJ6            	0	4.745	DC              	;				
+ SBJ7            	0	0.278	DC              	;				
+ SBJ8            	0	9.297	                	;				
+ SBJ9            	0	9.297	                	;				
+ SBJ10           	0	29.814	DC              	;				
+ SBJ11           	0	6.0775	                	;				
+ SBJ13           	0	29.814	DC              	;				
+ SBJ14           	0	29.814	THUONG          	;				
+ SBJ15           	0	6.0775	DU              	;				
+ SBJ16           	0	3.5875	                	;				
+ JT1             	0	0.0643	BT             	;				
+ JT3             	0	0.032	T6              	;				
+ JT4             	0	0.028	T15             	;				
+ JT5             	0	0.052	T16             	;				
+ JT7             	0	0.0683	T18             	;				
+ JT9             	0	0.0643	T4              	;				
+ JT10            	0	0.05	T5              	;				
+ JT11            	0	0.032	T7              	;				
+ JT12            	0	0.028	T11             	;				
+ JT13            	0	0.028	T14             	;				
+ JT14            	0	0.0683	T18             	;				
+ JT15            	0	0.102	T8              	;				
+ JT16            	0	0.0643	T7              	;				
+ JT17            	0	0.0643	T8              	;				
+ JT18            	0	0.095	T9              	;				
+ JT19            	0	0.034	T11             	;				
+ JT20            	0	0.0425	T13             	;				
+ JT21            	0	0.067	T16             	;				
+ JT22            	0	0.0683	T18             	;				
+ JT23            	0	0.0683	T18             	;				
+ JT24            	0	0.08	T17             	;				
+ JT25            	0	0.022	T14             	;				
+ JT26            	0	0.022	T13             	;				
+ JT27            	0	0.04	T2              	;				
+ JT28            	0	0.04	T9              	;				
+ JT29            	0	0.04	T3              	;				
+ JT30            	0	0.04	T3              	;				
+ JT31            	0	0.04	T2              	;				
+ JT32            	0	0.022	T15             	;				
+ JT33            	0	0.052	T16             	;				
+ JT34            	0	0.052	                	;				
+ JT36            	0	0	                	;				
+ JT37            	0	0	                	;				
+ JT39            	0	0.148	                	;				
+ JT40            	0	0	                	;				
+ JT41            	0	9.297	                	;				
+ JT42            	0	9.297	                	;				
+ J1              	0	0.0787	TTTM            	;				
+ J2              	0	0.2222	                	;				
+ J3              	0	0.1013	BT            	;				
+ J4              	0	0.1013	BT            	;				
+ J5              	0	0.035	                	;				
+ J6              	0	0	                	;				
+ J7              	0	0	                	;				
+ J8              	0	0.08	T17             	;				
+ J9              	0	0.141	TDTT            	;				
+ J10             	0	0.0787	BT             	;				
+ J11             	0	0.0243	NTT             	;				
+ J12             	0	0.05	T5              	;				
+ J13             	0	1.8	BT            	;				
+ J14             	0	1.8	CC            	;				
+ J15             	0	0.156	CC            	;				
+ J16             	0	0.1013	TH            	;				
+ J17             	0	0.1597	TH            	;				
+ J18             	0	0.1562	CC            	;				
+ J19             	0	0.085	BT             	;				
+ SJ3             	0	0.37	CHCC            	;				
+ SJ4             	0	0.35	CHCC            	;				
+ SJ5             	0	0.55	CHCC            	;				
+ SJ6             	0	0.55	CHDV            	;				
+ SJ7             	0	0.35	CHCC            	;				
+ SJ8             	0	4.1	CHVP            	;				
+ SJ9             	0	6.51	CHVP            	;				
+ SJ10            	0	0.05	CHCC            	;				
+ SJ11            	0	0.05	                	;				
+ SJ12            	0	0.05	CHCC            	;				
+ SJ13            	0	0.05	CHCC            	;				
+ SJ14            	0	0.054	CHCC            	;				
+ SJ15            	0	0.148	NP              	;				
+ SJ16            	0	0.09	NP              	;				
+ SJ17            	0	0.035	CHCC            	;				
+ SJ18            	0	0.035	NP              	;				
+ JT2             	0	0.113	NP              	;				
+ JT6             	0	0	                	;				
+ SJ1             	0	6.51	                	;				
+ SJ2             	0	0	                	;				
+ JT35            	0	0.032	T6              	;				
+ SJ19            	0	0.55	CHCC            	;				
+ SJ20            	0	0.37	CHCC            	;				
+ SJ21            	0	0.06	CHCC            	;				
+ SJ22            	0	0.06	CHCC            	;				
+ SJ23            	0	0.035	NP              	;				
+ SJ24            	0	0	                	;				
+ SJ25            	0	1.5	CHVP            	;				
+ J20             	0	0.0243	BT             	;				
+ J21             	0	0.0243	BT             	;				
+ J22             	0	0.0746	BT             	;				
+ J23             	0	0.085	BT             	;				
+ J24             	0	0.1024	BT             	;				
+ J25             	0	0.1006	BT             	;				
+ JT38            	0	0.0643	T4              	;				
+ J26             	0	0.0243	BT             	;				
+ J27             	0	0.1024	BT             	;				
+ J28             	0	0.1006	BT             	;				
+ SJ26            	0	0.05	NP              	;				
+ SJ27            	0	0.054	CHCC            	;				
+ J29             	0	1.8	BT            	;				
+ SBJ17           	0	6.0775	DU              	;				
+ SBJ18           	0	6.0775	                	;				
+ JT43            	0	0.1133	T15             	;				
+ JT44            	0	0.052	T16             	;				
+ SBJ19           	23	0.1	DC              	;				
+ SJ28            	23	0.1	NP              	;				
+ NUT1            	23	0.2222	TDTT            	;				
+ NUT2            	23	0.1493	TH            	;				
+ NUT4            	23	0.2222	CC            	;				
+ NUT5            	23	0.2222	CC            	;				
+ NUT6            	23	0.0746	BT             	;				
+								
+[RESERVOIRS]								
+;ID              	Head        	Pattern         						
+1	0	                	;					
+								
+[TANKS]								
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve        	Overflow
+								
+[PIPES]								
+;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status	
+ SB1             	SBJ1            	SBJ2            	78.6	12	100	0	Open  	;
+ SB2             	SBJ2            	SBJ3            	100.53	12	100	0	Open  	;
+ SB3             	SBJ3            	SBJ4            	85.39	12	100	0	Open  	;
+ SB4             	SBJ4            	SBJ5            	102.89	12	100	0	Open  	;
+ SB5             	SBJ5            	SBJ6            	49.89	12	100	0	Open  	;
+ SB22            	SBJ10           	SBJ13           	54.91	12	100	0	Open  	;
+ SB19            	SBJ6            	SBJ14           	310.3	12	100	0	Open  	;
+ SB18            	SBJ5            	SBJ15           	297.41	12	100	0	Open  	;
+ SB16            	SBJ15           	SBJ11           	99.48	12	100	0	Open  	;
+ SB12            	SBJ16           	SBJ3            	290.41	12	100	0	Open  	;
+ SB14            	SBJ4            	SBJ11           	284.6	12	100	0	Open  	;
+ PT-5            	JT4             	JT5             	34.12	100	140	0	Open  	;
+ PT-24           	JT23            	JT24            	53.26	100	140	0	Open  	;
+ PT-23           	JT24            	JT34            	93.17	100	140	0	Open  	;
+ PT-22           	JT34            	JT33            	46.26	100	140	0	Open  	;
+ PT-21           	JT33            	JT32            	31.75	100	140	0	Open  	;
+ PT-20           	JT32            	JT31            	98.13	100	140	0	Open  	;
+ PT-19           	JT31            	JT30            	161.22	100	140	0	Open  	;
+ PT-18           	JT30            	JT1             	287.49	100	140	0	Open  	;
+ PT-30           	JT9             	JT16            	67.41	100	140	0	Open  	;
+ PT-31           	JT16            	JT17            	67.65	100	140	0	Open  	;
+ PT-32           	JT17            	JT29            	77.11	100	140	0	Open  	;
+ PT-33           	JT29            	JT28            	79.61	100	140	0	Open  	;
+ PT-34           	JT28            	JT27            	48.54	100	140	0	Open  	;
+ PT-35           	JT27            	JT26            	46.75	100	140	0	Open  	;
+ PT-36           	JT26            	JT25            	52.13	100	140	0	Open  	;
+ PT-47           	JT13            	JT4             	38.28	100	140	0	Open  	;
+ PT-46           	JT13            	JT12            	53.52	100	140	0	Open  	;
+ PT-43           	JT11            	JT10            	61.83	100	140	0	Open  	;
+ PT-42           	JT10            	JT9             	118.7	100	140	0	Open  	;
+ PT-54           	JT16            	JT15            	152.31	100	140	0	Open  	;
+ PT-55           	JT17            	JT18            	117.34	100	140	0	Open  	;
+ PT-56           	JT18            	JT19            	41.91	100	140	0	Open  	;
+ PT-57           	JT19            	JT20            	40.35	100	140	0	Open  	;
+ PT-50           	JT11            	JT15            	60.36	100	140	0	Open  	;
+ PT-52           	JT15            	JT18            	55.96	100	140	0	Open  	;
+ PT-60           	JT18            	JT28            	105.06	100	140	0	Open  	;
+ PT-59           	JT19            	JT27            	128.67	100	140	0	Open  	;
+ PT-41           	JT27            	JT31            	45.31	100	140	0	Open  	;
+ PT-40           	JT29            	JT30            	38.16	100	140	0	Open  	;
+ PT-51           	JT12            	JT20            	115.99	100	140	0	Open  	;
+ PT-58           	JT20            	JT26            	144.4	100	140	0	Open  	;
+ PT-39           	JT5             	JT21            	116.22	100	140	0	Open  	;
+ PT-28           	JT7             	JT14            	81.81	100	140	0	Open  	;
+ PT-27           	JT14            	JT22            	125.38	100	140	0	Open  	;
+ PT-26           	JT22            	JT23            	63.96	100	140	0	Open  	;
+ PT-11           	JT36            	JT42            	140.56	100	140	0	Open  	;
+ SB9             	JT42            	JT41            	107.1	100	140	0	Open  	;
+ PT-13           	JT41            	JT40            	56.16	100	140	0	Open  	;
+ PT-14           	JT40            	JT39            	90.28	100	140	0	Open  	;
+ PT-17           	JT37            	JT36            	90.89	100	140	0	Open  	;
+ SB8             	SBJ8            	JT41            	109.8	12	100	0	Open  	;
+ SB10            	JT42            	SBJ9            	80.4	12	100	0	Open  	;
+ PD3             	J2              	J1              	128.25	200	140	0	Open  	;
+ PD4             	J1              	J10             	275.06	200	140	0	Open  	;
+ PD18            	J9              	J11             	96.01	200	140	0	Open  	;
+ PD46            	J3              	J4              	101.14	200	140	0	Open  	;
+ PD12            	J4              	J16             	51.14	200	140	0	Open  	;
+ PD15            	J16             	J17             	178.44	200	140	0	Open  	;
+ PD14            	J4              	J18             	182.97	200	140	0	Open  	;
+ PD20            	J18             	J17             	54.01	200	140	0	Open  	;
+ PD22            	J18             	J8              	179.64	200	140	0	Open  	;
+ PD13            	J4              	J13             	114.35	200	140	0	Open  	;
+ PD6             	J13             	J14             	194	200	140	0	Open  	;
+ PD21            	J14             	J18             	60.12	200	140	0	Open  	;
+ PD7             	J14             	J15             	182.61	200	140	0	Open  	;
+ PD44            	J14             	J5              	120.85	200	140	0	Open  	;
+ PT-9            	J15             	J6              	85.18	200	140	0	Open  	;
+ PD8             	J6              	J7              	88.17	200	140	0	Open  	;
+ PD10            	J5              	J7              	91.56	200	140	0	Open  	;
+ PT-12           	JT37            	JT40            	182.86	12	100	0	Open  	;
+14	SBJ15           	SBJ14           	55.01	12	100	0	Open  	;
+15	SBJ14           	SBJ13           	72.12	12	100	0	Open  	;
+ PT-49           	J12             	JT10            	41.09	12	100	0	Open  	;
+ PT-3            	J12             	JT3             	101.9	12	100	0	Open  	;
+ PT-48           	JT3             	JT35            	39.68	12	100	0	Open  	;
+ PT-53           	JT35            	JT19            	116.46	12	100	0	Open  	;
+ PT-44           	JT11            	JT35            	41.51	12	100	0	Open  	;
+ PT-45           	JT35            	JT12            	41.38	12	100	0	Open  	;
+ PD24            	J9              	JT3             	179.76	12	100	0	Open  	;
+ PD5             	J10             	JT1             	172.96	12	100	0	Open  	;
+ PT-25           	JT23            	J15             	301.28	12	100	0	Open  	;
+ PT-6            	JT5             	J8              	51.71	12	100	0	Open  	;
+ PT-7            	J8              	JT7             	41.58	12	100	0	Open  	;
+ PT-8            	JT7             	J15             	62.98	12	100	0	Open  	;
+ PD23            	J17             	JT5             	180.97	12	100	0	Open  	;
+ PD9             	J7              	JT37            	177.22	12	100	0	Open  	;
+ PT-10           	J6              	JT36            	174.61	12	100	0	Open  	;
+ PT-16           	JT2             	JT37            	86.97	12	100	0	Open  	;
+ SP1             	SBJ1            	SJ3             	130.18	12	100	0	Open  	;
+ SB11            	SBJ1            	SBJ16           	408.08	12	100	0	Open  	;
+ SP28            	SJ3             	SJ20            	74.64	12	100	0	Open  	;
+ SP33            	SJ20            	SJ7             	149.21	12	100	0	Open  	;
+ SP27            	SJ20            	SJ8             	100.89	12	100	0	Open  	;
+ SP2             	SJ3             	SJ4             	220.37	12	100	0	Open  	;
+ SP3             	SJ4             	SJ5             	138.69	12	100	0	Open  	;
+ SP29            	SJ4             	SJ7             	171.64	12	100	0	Open  	;
+ SP30            	SJ5             	SJ19            	154.84	12	100	0	Open  	;
+ SP32            	SJ7             	SJ19            	142.84	12	100	0	Open  	;
+ SP31            	SJ19            	SJ6             	176.45	12	100	0	Open  	;
+ SP35            	SJ19            	SJ9             	103.24	12	100	0	Open  	;
+ SP36            	SJ6             	SJ1             	105.12	12	100	0	Open  	;
+ SP4             	SJ5             	SJ6             	303.22	12	100	0	Open  	;
+ SP6             	SJ1             	SJ2             	89.58	12	100	0	Open  	;
+ SP21            	SJ21            	SJ22            	43.75	12	100	0	Open  	;
+ SP34            	SJ7             	SJ25            	100.3	12	100	0	Open  	;
+ SP7             	SJ2             	SJ11            	104	12	100	0	Open  	;
+ PD43            	J13             	SJ11            	137.98	12	100	0	Open  	;
+ SP42            	SJ11            	SJ10            	112.68	12	100	0	Open  	;
+ SP8             	SJ12            	SJ11            	55.85	12	100	0	Open  	;
+ SP9             	SJ12            	SJ17            	73.15	12	100	0	Open  	;
+ SP10            	SJ17            	J5              	70.83	12	100	0	Open  	;
+ SP43            	SJ12            	SJ13            	46.02	12	100	0	Open  	;
+ SP46            	SJ14            	SJ22            	117.21	12	100	0	Open  	;
+ SP13            	SJ16            	JT2             	71.84	12	100	0	Open  	;
+ SP51            	SJ17            	SJ23            	47.35	12	100	0	Open  	;
+ SP49            	SJ23            	SJ16            	124.35	12	100	0	Open  	;
+ SP14            	SJ16            	SJ15            	202.58	12	100	0	Open  	;
+ SP16            	SJ15            	SBJ8            	155.38	12	100	0	Open  	;
+ SP15            	SJ15            	JT39            	98.55	12	100	0	Open  	;
+ PT-15           	JT39            	JT2             	129.31	12	100	0	Open  	;
+ SP12            	JT2             	SJ18            	132.04	12	100	0	Open  	;
+ SP11            	SJ18            	J5              	46.95	12	100	0	Open  	;
+ SP50            	SJ18            	SJ23            	69.35	12	100	0	Open  	;
+ SP48            	SJ23            	SJ13            	73.15	12	100	0	Open  	;
+ SP19            	SJ21            	SBJ5            	268.19	12	100	0	Open  	;
+ SP18            	SBJ6            	SJ22            	252.39	12	100	0	Open  	;
+ SP26            	SJ20            	SBJ2            	131.74	12	100	0	Open  	;
+ SP37            	SJ1             	SJ9             	149.97	12	100	0	Open  	;
+ SP38            	SJ9             	SJ25            	146.35	12	100	0	Open  	;
+ SP24            	SJ25            	SJ8             	142.3	12	100	0	Open  	;
+ SP25            	SJ8             	SBJ3            	136.54	12	100	0	Open  	;
+ SP39            	SJ2             	SJ24            	297.35	12	100	0	Open  	;
+ SP20            	SJ24            	SBJ4            	278.4	12	100	0	Open  	;
+ PD25            	J20             	J21             	60.97	12	100	0	Open  	;
+ PD16            	J1              	J20             	43.42	12	100	0	Open  	;
+ PD17            	J20             	J11             	54.15	12	100	0	Open  	;
+ PD26            	J11             	J26             	51.75	12	100	0	Open  	;
+ PD35            	J19             	J27             	57.15	12	100	0	Open  	;
+ PD37            	J27             	J28             	58.23	12	100	0	Open  	;
+ PD41            	J28             	J12             	38.92	12	100	0	Open  	;
+ PT-2            	JT38            	J12             	131.29	12	100	0	Open  	;
+ PT-1            	JT1             	JT38            	45.85	12	100	0	Open  	;
+ PT-29           	JT38            	JT9             	42.82	12	100	0	Open  	;
+ PD40            	JT38            	J25             	37.13	12	100	0	Open  	;
+ PD38            	J25             	J24             	58.33	12	100	0	Open  	;
+ PD36            	J24             	J27             	143.05	12	100	0	Open  	;
+ PD39            	J28             	J25             	139.31	12	100	0	Open  	;
+ PD34            	J23             	J24             	56.96	12	100	0	Open  	;
+ PD33            	J23             	J10             	44.46	12	100	0	Open  	;
+ PD32            	J23             	J19             	130.95	12	100	0	Open  	;
+ PD31            	J22             	J23             	73.59	12	100	0	Open  	;
+ PD27            	J21             	J26             	65.88	12	100	0	Open  	;
+ PD28            	J21             	J22             	110.36	12	100	0	Open  	;
+ SB20            	SBJ13           	SBJ7            	372.79	12	100	0	Open  	;
+ SB21            	SBJ7            	SBJ10           	389.12	12	100	0	Open  	;
+ SB7             	SBJ7            	SBJ8            	146.58	12	100	0	Open  	;
+ SP44            	SJ13            	SJ26            	94.55	12	100	0	Open  	;
+ SP45            	SJ26            	SJ14            	102.45	12	100	0	Open  	;
+ SP52            	SJ10            	SJ26            	47.63	12	100	0	Open  	;
+ SP47            	SJ26            	SJ16            	63.78	12	100	0	Open  	;
+ SP41            	SJ10            	SJ27            	101.39	12	100	0	Open  	;
+ SP53            	SJ27            	SJ14            	46.13	12	100	0	Open  	;
+ SP40            	SJ27            	SJ21            	116.01	12	100	0	Open  	;
+ PD45            	J29             	J13             	110.52	12	100	0	Open  	;
+ PD1             	J3              	J29             	160.31	12	100	0	Open  	;
+ PD42            	J29             	SJ2             	131	12	100	0	Open  	;
+ SB26            	SBJ11           	SBJ18           	131.7	12	100	0	Open  	;
+ SB25            	SBJ18           	SBJ17           	114.14	12	100	0	Open  	;
+ SB24            	SBJ17           	SBJ15           	182.84	12	100	0	Open  	;
+ SB23            	SBJ17           	SBJ10           	411.19	12	100	0	Open  	;
+ ongcapnuoc      	SBJ18           	1	612.67	12	100	0	Open  	;
+ PT-61           	J8              	JT24            	272.15	100	140	0	Open  	;
+ PT-62           	JT25            	JT32            	40.33	100	140	0	Open  	;
+ PT-37           	JT13            	JT43            	126.52	100	140	0	Open  	;
+ PT-63           	JT43            	JT25            	148.31	100	140	0	Open  	;
+ PT-38           	JT21            	JT44            	123.25	100	140	0	Open  	;
+ PT-64           	JT44            	JT33            	120.13	100	140	0	Open  	;
+ SP54            	SJ22            	SJ28            	35.63	200	120	0	Open  	;
+ SP55            	SJ15            	SJ28            	43.57	200	120	0	Open  	;
+ SP56            	SJ28            	SBJ19           	235.25	200	120	0	Open  	;
+ SB6             	SBJ6            	SBJ19           	36.12	200	120	0	Open  	;
+ SB27            	SBJ7            	SBJ19           	68.81	200	120	0	Open  	;
+ ?ng13           	NUT1            	J1              	90.55	200	120	0	Open  	;
+ ?ng14           	NUT1            	J16             	123.77	200	120	0	Open  	;
+ ?ng15           	NUT2            	J17             	39.68	200	120	0	Open  	;
+ ?ng16           	NUT2            	J9              	89.58	200	120	0	Open  	;
+ ?ng17           	NUT1            	NUT2            	197.51	200	120	0	Open  	;
+ ?ng18           	NUT2            	JT4             	182.25	200	120	0	Open  	;
+ ?ng21           	NUT4            	J2              	167.35	200	120	0	Open  	;
+ ?ng22           	NUT4            	J3              	93.9	200	120	0	Open  	;
+ ?ng23           	NUT4            	NUT5            	111.88	200	120	0	Open  	;
+ ?ng24           	J26             	NUT6            	25.31	200	120	0	Open  	;
+ ?ng25           	NUT6            	J22             	100.23	200	120	0	Open  	;
+ ?ng26           	NUT6            	J19             	57.98	200	120	0	Open  	;
+1	JT3             	JT4             	95.39	12	100	0	Open  	;
+								
+[PUMPS]								
+;ID              	Node1           	Node2           	Parameters					
+								
+[VALVES]								
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   		
+								
+[TAGS]								
+								
+[DEMANDS]								
+;Junction        	Demand      	Pattern         	Category					
+ SBJ1            	3.5875	CHCC            	; 					
+ SBJ1            	0.37	                	; 					
+ SBJ2            	3.5875	CHCC            	; 					
+ SBJ2            	0.37	CHDV            	; 					
+ SBJ2            	4.1	                	; 					
+ SBJ3            	3.5875	CHDV            	; 					
+ SBJ3            	4.1	                	; 					
+ SBJ5            	4.745	CHCC            	; 					
+ SBJ5            	0.16	THUONG          	; 					
+ SBJ6            	4.745	DC              	; 					
+ SBJ6            	0.278	CHCC            	; 					
+ SBJ6            	0.16	NP              	; 					
+ SBJ6            	0.1	DC              	; 					
+ SBJ7            	0.278	DC              	; 					
+ SBJ7            	0.35	CV              	; 					
+ SBJ7            	9.297	DU              	; 					
+ SBJ10           	29.814	DC              	; 					
+ SBJ10           	0.35	CV              	; 					
+ SBJ10           	9.297	DU              	; 					
+ SBJ13           	29.814	DC              	; 					
+ SBJ13           	0.278	DC              	; 					
+ SBJ13           	0.35	DU              	; 					
+ SBJ14           	29.814	THUONG          	; 					
+ SBJ14           	4.745	DC              	; 					
+ SBJ14           	0.278	HOI             	; 					
+ SBJ15           	6.0775	DU              	; 					
+ SBJ15           	29.814	THUONG          	; 					
+ SBJ15           	4.745	                	; 					
+ JT1             	0.0643	BT             	; 					
+ JT1             	0.0451	T5              	; 					
+ JT3             	0.032	T6              	; 					
+ JT3             	0.028	NTT             	; 					
+ JT3             	0.141	TDTT            	; 					
+ JT3             	0.1892	T6              	; 					
+ JT4             	0.028	T15             	; 					
+ JT4             	0.052	TH            	; 					
+ JT4             	0.0861	T15             	; 					
+ JT5             	0.052	T16             	; 					
+ JT5             	0.08	TH            	; 					
+ JT5             	0.0861	NP            	; 					
+ JT5             	0.0711	T17             	; 					
+ JT7             	0.0683	T18             	; 					
+ JT7             	0.156	CC            	; 					
+ JT7             	0.1291	T3              	; 					
+ JT9             	0.0643	T4              	; 					
+ JT9             	0.05	T7              	; 					
+ JT9             	0.102	T4              	; 					
+ JT10            	0.05	T5              	; 					
+ JT10            	0.032	T7              	; 					
+ JT10            	0.102	T5              	; 					
+ JT11            	0.032	T7              	; 					
+ JT11            	0.102	T10             	; 					
+ JT11            	0.034	T6              	; 					
+ JT12            	0.028	T11             	; 					
+ JT12            	0.0425	T14             	; 					
+ JT12            	0.1133	T6              	; 					
+ JT13            	0.028	T14             	; 					
+ JT13            	0.1133	T15             	; 					
+ JT13            	0.052	T17             	; 					
+ JT14            	0.0683	T18             	; 					
+ JT14            	0.156	T7              	; 					
+ JT15            	0.102	T8              	; 					
+ JT15            	0.095	T10             	; 					
+ JT15            	0.034	T3              	; 					
+ JT16            	0.0643	T7              	; 					
+ JT16            	0.102	T8              	; 					
+ JT16            	0.095	T3              	; 					
+ JT17            	0.0643	T8              	; 					
+ JT17            	0.095	T9              	; 					
+ JT17            	0.085	T8              	; 					
+ JT18            	0.095	T9              	; 					
+ JT18            	0.085	T10             	; 					
+ JT18            	0.034	T12             	; 					
+ JT18            	0.0375	T10             	; 					
+ JT19            	0.034	T11             	; 					
+ JT19            	0.0425	T12             	; 					
+ JT19            	0.0375	T13             	; 					
+ JT19            	0.0475	T11             	; 					
+ JT20            	0.0425	T13             	; 					
+ JT20            	0.0475	T14             	; 					
+ JT20            	0.1133	T15             	; 					
+ JT21            	0.067	T16             	; 					
+ JT21            	0.08	T17             	; 					
+ JT22            	0.0683	T18             	; 					
+ JT22            	0.156	T17             	; 					
+ JT23            	0.0683	T18             	; 					
+ JT23            	0.156	T16             	; 					
+ JT24            	0.08	T17             	; 					
+ JT24            	0.0683	T2              	; 					
+ JT25            	0.022	T14             	; 					
+ JT25            	0.1133	T15             	; 					
+ JT25            	0.052	T2              	; 					
+ JT26            	0.022	T13             	; 					
+ JT26            	0.0475	T14             	; 					
+ JT26            	0.1133	T1              	; 					
+ JT27            	0.04	T2              	; 					
+ JT27            	0.022	T12             	; 					
+ JT27            	0.0375	T13             	; 					
+ JT27            	0.0475	T1              	; 					
+ JT28            	0.04	T9              	; 					
+ JT28            	0.085	T12             	; 					
+ JT28            	0.0375	T1              	; 					
+ JT29            	0.04	T3              	; 					
+ JT29            	0.0643	T9              	; 					
+ JT29            	0.085	T1              	; 					
+ JT30            	0.04	T3              	; 					
+ JT30            	0.0643	T1              	; 					
+ JT31            	0.04	T2              	; 					
+ JT31            	0.022	T2              	; 					
+ JT32            	0.022	T15             	; 					
+ JT32            	0.052	T15             	; 					
+ JT33            	0.052	T16             	; 					
+ JT33            	0.08	BT             	; 					
+ J1              	0.0787	TTTM            	; 					
+ J1              	0.2222	TDTT            	; 					
+ J1              	0.1493	CC            	; 					
+ J3              	0.1013	BT            	; 					
+ J3              	0.1875	CC            	; 					
+ J4              	0.1013	BT            	; 					
+ J4              	0.1875	CC            	; 					
+ J4              	0.1562	NP            	; 					
+ J4              	0.0677	T16             	; 					
+ J8              	0.08	T17             	; 					
+ J8              	0.0683	CC            	; 					
+ J8              	0.1291	NP            	; 					
+ J8              	0.0711	NTT             	; 					
+ J9              	0.141	TDTT            	; 					
+ J9              	0.1493	TDTT            	; 					
+ J9              	0.1892	BT             	; 					
+ J10             	0.0787	BT             	; 					
+ J10             	0.0451	BT             	; 					
+ J11             	0.0243	NTT             	; 					
+ J11             	0.141	TDTT            	; 					
+ J11             	0.1493	T4              	; 					
+ J12             	0.05	T5              	; 					
+ J12             	0.032	BT             	; 					
+ J12             	0.0538	NTT             	; 					
+ J12             	0.141	                	; 					
+ J13             	1.8	BT            	; 					
+ J13             	0.1875	CC            	; 					
+ J13             	0.1562	                	; 					
+ J14             	1.8	CC            	; 					
+ J14             	0.1562	CC            	; 					
+ J14             	0.1291	                	; 					
+ J15             	0.156	CC            	; 					
+ J15             	0.1291	CC            	; 					
+ J16             	0.1013	TH            	; 					
+ J16             	0.1597	NP            	; 					
+ J16             	0.0677	TH            	; 					
+ J17             	0.1597	TH            	; 					
+ J17             	0.0861	NP            	; 					
+ J17             	0.0677	NP            	; 					
+ J17             	0.0711	CC            	; 					
+ J18             	0.1562	CC            	; 					
+ J18             	0.1291	NP            	; 					
+ J18             	0.0677	NP            	; 					
+ J18             	0.0711	BT             	; 					
+ J19             	0.085	BT             	; 					
+ J19             	0.1024	NTT             	; 					
+ J19             	0.141	CHCC            	; 					
+ SJ3             	0.37	CHCC            	; 					
+ SJ3             	0.13	CHCC            	; 					
+ SJ4             	0.35	CHCC            	; 					
+ SJ4             	0.37	CHCC            	; 					
+ SJ5             	0.55	CHCC            	; 					
+ SJ5             	0.35	CHCC            	; 					
+ SJ6             	0.55	CHDV            	; 					
+ SJ6             	6.51	CHCC            	; 					
+ SJ7             	0.35	CHCC            	; 					
+ SJ7             	0.37	CHVP            	; 					
+ SJ7             	1.5	CHVP            	; 					
+ SJ7             	1.41	CHDV            	; 					
+ SJ8             	4.1	CHVP            	; 					
+ SJ8             	1.41	CHDV            	; 					
+ SJ9             	6.51	CHVP            	; 					
+ SJ9             	1.5	CHCC            	; 					
+ SJ10            	0.05	CHCC            	; 					
+ SJ10            	0.054	CHCC            	; 					
+ SJ12            	0.05	CHCC            	; 					
+ SJ12            	0.035	CHCC            	; 					
+ SJ13            	0.05	CHCC            	; 					
+ SJ13            	0.035	NP              	; 					
+ SJ13            	0.09	CHCC            	; 					
+ SJ14            	0.054	CHCC            	; 					
+ SJ14            	0.06	NP              	; 					
+ SJ14            	0.123	NP              	; 					
+ SJ15            	0.148	NP              	; 					
+ SJ15            	0.123	NP              	; 					
+ SJ16            	0.09	NP              	; 					
+ SJ16            	0.113	NP              	; 					
+ SJ16            	0.148	NP              	; 					
+ SJ16            	0.123	CHCC            	; 					
+ SJ17            	0.035	CHCC            	; 					
+ SJ17            	0.035	CHCC            	; 					
+ SJ18            	0.035	NP              	; 					
+ SJ18            	0.113	NP              	; 					
+ JT2             	0.113	NP              	; 					
+ JT2             	0.148	T5              	; 					
+ JT35            	0.032	T6              	; 					
+ JT35            	0.028	T10             	; 					
+ JT35            	0.034	T11             	; 					
+ JT35            	0.0425	CHCC            	; 					
+ SJ19            	0.55	CHCC            	; 					
+ SJ19            	0.35	CHDV            	; 					
+ SJ19            	6.51	CHVP            	; 					
+ SJ19            	1.5	CHCC            	; 					
+ SJ20            	0.37	CHCC            	; 					
+ SJ20            	0.13	CHDV            	; 					
+ SJ20            	4.1	CHVP            	; 					
+ SJ20            	1.41	CHCC            	; 					
+ SJ21            	0.06	CHCC            	; 					
+ SJ21            	0.16	CHCC            	; 					
+ SJ22            	0.06	CHCC            	; 					
+ SJ22            	0.16	NP              	; 					
+ SJ22            	0.1	NP              	; 					
+ SJ22            	0.123	CHCC            	; 					
+ SJ23            	0.035	NP              	; 					
+ SJ23            	0.09	CHCC            	; 					
+ SJ23            	0.035	NP              	; 					
+ SJ23            	0.113	CHVP            	; 					
+ SJ25            	1.5	CHVP            	; 					
+ SJ25            	1.41	BT             	; 					
+ J20             	0.0243	BT             	; 					
+ J20             	0.0787	TDTT            	; 					
+ J20             	0.1493	BT             	; 					
+ J21             	0.0243	BT             	; 					
+ J21             	0.0995	BT             	; 					
+ J21             	0.0787	BT             	; 					
+ J22             	0.0746	BT             	; 					
+ J22             	0.085	BT             	; 					
+ J22             	0.0787	BT             	; 					
+ J23             	0.085	BT             	; 					
+ J23             	0.0787	BT             	; 					
+ J23             	0.1024	BT             	; 					
+ J23             	0.0451	BT             	; 					
+ J24             	0.1024	BT             	; 					
+ J24             	0.1006	BT             	; 					
+ J24             	0.0451	BT             	; 					
+ J25             	0.1006	BT             	; 					
+ J25             	0.0538	BT             	; 					
+ J25             	0.0451	T3              	; 					
+ JT38            	0.0643	T4              	; 					
+ JT38            	0.05	BT             	; 					
+ JT38            	0.0538	BT             	; 					
+ JT38            	0.0451	BT             	; 					
+ J26             	0.0243	BT             	; 					
+ J26             	0.0746	NTT             	; 					
+ J26             	0.141	BT             	; 					
+ J27             	0.1024	BT             	; 					
+ J27             	0.1006	NTT             	; 					
+ J27             	0.141	BT             	; 					
+ J28             	0.1006	BT             	; 					
+ J28             	0.0538	NTT             	; 					
+ J28             	0.141	CHCC            	; 					
+ SJ26            	0.05	NP              	; 					
+ SJ26            	0.09	CHCC            	; 					
+ SJ26            	0.054	NP              	; 					
+ SJ26            	0.123	CHCC            	; 					
+ SJ27            	0.054	CHCC            	; 					
+ SJ27            	0.06	                	; 					
+ J29             	1.8	BT            	; 					
+ J29             	0.1875	HOI             	; 					
+ SBJ17           	6.0775	DU              	; 					
+ SBJ17           	29.814	T14             	; 					
+ JT43            	0.1133	T15             	; 					
+ JT43            	0.052	T15             	; 					
+ JT44            	0.052	T16             	; 					
+ JT44            	0.08	NP              	; 					
+ SBJ19           	0.1	DC              	; 					
+ SBJ19           	0.278	NP              	; 					
+ SJ28            	0.1	NP              	; 					
+ SJ28            	0.123	TTTM            	; 					
+ NUT1            	0.2222	TDTT            	; 					
+ NUT1            	0.1493	TH            	; 					
+ NUT1            	0.1597	TDTT            	; 					
+ NUT2            	0.1493	TH            	; 					
+ NUT2            	0.1597	TDTT            	; 					
+ NUT2            	0.1892	TH            	; 					
+ NUT2            	0.0861	TDTT            	; 					
+ NUT4            	0.2222	CC            	; 					
+ NUT4            	0.1013	TTTM            	; 					
+ NUT5            	0.2222	CC            	; 					
+ NUT5            	0.1013	TH            	; 					
+ NUT5            	0.1597	BT             	; 					
+ NUT6            	0.0746	BT             	; 					
+ NUT6            	0.085	NTT             	; 					
+ NUT6            	0.141	NTT             	; 					
+								
+[STATUS]								
+;ID              	Status/Setting							
+								
+[PATTERNS]								
+;ID              	Multipliers							
+								
+[CURVES]								
+;ID              	X-Value     	Y-Value						
+								
+[CONTROLS]								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+[RULES]								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+[ENERGY]								
+ Global Efficiency  	75							
+ Global Price       	0							
+ Demand Charge      	0							
+								
+[EMITTERS]								
+;Junction        	Coefficient							
+ SBJ1            	0							
+ SBJ2            	0							
+ SBJ3            	0							
+ SBJ4            	0							
+ SBJ5            	0							
+ SBJ6            	0							
+ SBJ7            	0							
+ SBJ8            	0							
+ SBJ9            	0							
+ SBJ10           	0							
+ SBJ11           	0							
+ SBJ13           	0							
+ SBJ14           	0							
+ SBJ15           	0							
+ SBJ16           	0							
+ JT1             	0							
+ JT3             	0							
+ JT4             	0							
+ JT5             	0							
+ JT7             	0							
+ JT9             	0							
+ JT10            	0							
+ JT11            	0							
+ JT12            	0							
+ JT13            	0							
+ JT14            	0							
+ JT15            	0							
+ JT16            	0							
+ JT17            	0							
+ JT18            	0							
+ JT19            	0							
+ JT20            	0							
+ JT21            	0							
+ JT22            	0							
+ JT23            	0							
+ JT24            	0							
+ JT25            	0							
+ JT26            	0							
+ JT27            	0							
+ JT28            	0							
+ JT29            	0							
+ JT30            	0							
+ JT31            	0							
+ JT32            	0							
+ JT33            	0							
+ JT34            	0							
+ JT36            	0							
+ JT37            	0							
+ JT39            	0							
+ JT40            	0							
+ JT41            	0							
+ JT42            	0							
+ J1              	0							
+ J2              	0							
+ J3              	0							
+ J4              	0							
+ J5              	0							
+ J6              	0							
+ J7              	0							
+ J8              	0							
+ J9              	0							
+ J10             	0							
+ J11             	0							
+ J12             	0							
+ J13             	0							
+ J14             	0							
+ J15             	0							
+ J16             	0							
+ J17             	0							
+ J18             	0							
+ J19             	0							
+ SJ3             	0							
+ SJ4             	0							
+ SJ5             	0							
+ SJ6             	0							
+ SJ7             	0							
+ SJ8             	0							
+ SJ9             	0							
+ SJ10            	0							
+ SJ11            	0							
+ SJ12            	0							
+ SJ13            	0							
+ SJ14            	0							
+ SJ15            	0							
+ SJ16            	0							
+ SJ17            	0							
+ SJ18            	0							
+ JT2             	0							
+ JT6             	0							
+								
+[QUALITY]								
+;Node            	InitQual							
+								
+[SOURCES]								
+;Node            	Type        	Quality     	Pattern					
+								
+[REACTIONS]								
+;Type     	Pipe/Tank       	Coefficient						
+								
+								
+[REACTIONS]								
+ Order Bulk            	1							
+ Order Tank            	1							
+ Order Wall            	1							
+ Global Bulk           	0							
+ Global Wall           	0							
+ Limiting Potential    	0							
+ Roughness Correlation 	0							
+								
+[MIXING]								
+;Tank            	Model							
+								
+[TIMES]								
+ Duration           	1:00							
+ Hydraulic Timestep 	1:00							
+ Quality Timestep   	0:05							
+ Pattern Timestep   	1:00							
+ Pattern Start      	0:00							
+ Report Timestep    	1:00							
+ Report Start       	0:00							
+ Start ClockTime    	0:00							
+ Statistic          	NONE							
+								
+[REPORT]								
+ Status             	Full							
+ Summary            	No							
+ Page               	0							
+								
+[OPTIONS]								
+ Units              	LPS							
+ Headloss           	C-M							
+ Specific Gravity   	1							
+ Viscosity          	1							
+ Trials             	40							
+ Accuracy           	0.001							
+ CHECKFREQ          	2							
+ MAXCHECK           	10							
+ DAMPLIMIT          	0							
+ Unbalanced         	Stop							
+ Pattern            	1							
+ Demand Multiplier  	1							
+ Emitter Exponent   	0.5							
+ Quality            	None mg/L							
+ Diffusivity        	1							
+ Tolerance          	0.01							
+								
+[COORDINATES]								
+;Node            	X-Coord           	Y-Coord						
+SBJ1            	606851.65	1192151.3						
+SBJ2            	606886.25	1192080.72						
+SBJ3            	606933.991	1191992.25						
+SBJ4            	606973.113	1191916.354						
+SBJ5            	607009.15	1191819.98						
+SBJ6            	607018.351	1191763.929						
+SBJ7            	607009.524	1191659.682						
+SBJ8            	606955.95	1191523.24						
+SBJ9            	606888.43	1191241.58						
+SBJ10           	607347.65	1191797.09						
+SBJ11           	607225.566	1192047.75						
+SBJ13           	607329.22	1191846.24						
+SBJ14           	607296.2	1191910.36						
+SBJ15           	607271.74	1191959.63						
+SBJ16           	607190.773	1192127.892						
+JT1             	606018.448	1190893.229						
+JT3             	606264.72	1191024.15						
+JT4             	606349.37	1191068.12						
+JT5             	606378.99	1191085.05						
+JT7             	606461.76	1191128.08						
+JT9             	606086.13	1190885.65						
+JT10            	606191.12	1190941.03						
+JT11            	606246.14	1190969.24						
+JT12            	606319.51	1191007.8						
+JT13            	606366.3	1191033.79						
+JT14            	606501.97	1191056.83						
+JT15            	606273.65	1190915.51						
+JT16            	606139.16	1190844.03						
+JT17            	606197.24	1190809.47						
+JT18            	606299.99	1190866.14						
+JT19            	606337.02	1190885.77						
+JT20            	606372.65	1190904.7						
+JT21            	606433.635	1190982.476						
+JT22            	606563.11	1190947.37						
+JT23            	606593.67	1190891.18						
+JT24            	606547.12	1190865.31						
+JT25            	606493.27	1190790.07						
+JT26            	606442.48	1190778.31						
+JT27            	606396.478	1190771.66						
+JT28            	606347.96	1190772.67						
+JT29            	606268.95	1190781.84						
+JT30            	606259.31	1190744.92						
+JT31            	606419.2	1190732.46						
+JT32            	606514.43	1190755.74						
+JT33            	606544.53	1190765.85						
+JT34            	606588.03	1190781.6						
+JT36            	606749.288	1191274.527						
+JT37            	606705.48	1191354.16						
+JT39            	606778.96	1191490.77						
+JT40            	606859.38	1191449.74						
+JT41            	606909.23	1191423.88						
+JT42            	606879.508	1191321.483						
+J1              	606024.26	1191296.2						
+J2              	605966.731	1191410.824						
+J3              	606205.447	1191516.938						
+J4              	606254.195	1191428.321						
+J5              	606505.3	1191348.78						
+J6              	606594.89	1191192.98						
+J7              	606550.1	1191268.93						
+J8              	606425.051	1191108.547						
+J9              	606181.04	1191183.24						
+J10             	605941.01	1191047.4						
+J11             	606101.68	1191237.28						
+J12             	606173.74	1190978.26						
+J13             	606355.83	1191480.72						
+J14             	606397.7	1191293.76						
+J15             	606517.48	1191157.43						
+J16             	606210.157	1191402.327						
+J17             	606294.48	1191245.07						
+J18             	606343.17	1191268.44						
+J19             	606099.73	1191113.61						
+SJ3             	606736.52	1192090.54						
+SJ4             	606555.72	1192105.92						
+SJ5             	606440.32	1192028.99						
+SJ6             	606353.76	1191803.95						
+SJ7             	606635.54	1191953.97						
+SJ8             	606811.54	1191931.85						
+SJ9             	606555.72	1191798.18						
+SJ10            	606579.76	1191593.34						
+SJ11            	606478.79	1191543.33						
+SJ12            	606475.9	1191487.55						
+SJ13            	606517.25	1191507.74						
+SJ14            	606692.28	1191598.14						
+SJ15            	606812.679	1191583.377						
+SJ16            	606630.74	1191494.28						
+SJ17            	606478.79	1191414.46						
+SJ18            	606547.07	1191370.22						
+JT2             	606664.39	1191430.81						
+JT6             	606778.84	1191490.43						
+SJ1             	606425.207	1191724.3						
+SJ2             	606464.993	1191645.644						
+JT35            	606282.748	1190988.807						
+SJ19            	606507.966	1191889.712						
+SJ20            	606767.92	1192022.821						
+SJ21            	606773.622	1191691.723						
+SJ22            	606792.269	1191652.458						
+SJ23            	606521.581	1191434.721						
+SJ24            	606728.123	1191784.124						
+SJ25            	606685.019	1191866.729						
+J20             	606060.94	1191272.957						
+J21             	606027.663	1191221.874						
+J22             	605983.064	1191123.287						
+J23             	605985.411	1191049.738						
+J24             	606002.848	1190995.508						
+J25             	606033.833	1190946.088						
+JT38            	606057.403	1190917.404						
+J26             	606080.893	1191189.886						
+J27             	606128.359	1191064.147						
+J28             	606156.06	1191012.929						
+SJ26            	606601.379	1191550.895						
+SJ27            	606670.41	1191638.753						
+J29             	606346.061	1191590.729						
+SBJ17           	607434.14	1192043.626						
+SBJ18           	607343.08	1192107.212						
+JT43            	606423.481	1190920.931						
+JT44            	606490.94	1190873.36						
+SBJ19           	607019.136	1191727.818						
+SJ28            	606809.421	1191621.226						
+NUT1            	606100.193	1191345.525						
+NUT2            	606258.765	1191227.774						
+NUT4            	606119.096	1191480.043						
+NUT5            	606175.617	1191383.487						
+NUT6            	606073.956	1191165.544						
+1	607875.724	1192409.951						
+								
+[VERTICES]								
+;Link            	X-Coord           	Y-Coord						
+SB22            	607349.436	1191812.955						
+PT-20           	606454.145	1190738.855						
+PT-19           	606355.08	1190730.851						
+PT-19           	606312.155	1190733.466						
+PT-18           	606226.86	1190753.671						
+PT-18           	606195.897	1190764.137						
+PT-18           	606171.475	1190775.04						
+PT-18           	606140.075	1190792.048						
+PT-18           	606115.217	1190808.62						
+PT-18           	606096.465	1190821.703						
+PT-18           	606074.66	1190839.147						
+PT-18           	606056.779	1190854.411						
+PT-18           	606036.718	1190874.036						
+PT-31           	606163.851	1190827.588						
+PT-32           	606218.364	1190798.805						
+PT-32           	606234.5	1190792.264						
+PT-32           	606250.2	1190786.594						
+PT-33           	606288.141	1190778.308						
+PT-33           	606309.946	1190776.564						
+PT-33           	606330.443	1190774.819						
+PT-34           	606375.798	1190772.639						
+PT-35           	606430.142	1190774.259						
+PT-11           	606833.283	1191315.476						
+PT-11           	606845.502	1191319.84						
+PT-11           	606856.849	1191321.585						
+SB9             	606885.653	1191357.372						
+SB9             	606891.763	1191377.447						
+SB9             	606895.254	1191390.539						
+PD4             	605990.977	1191260.04						
+PD4             	605958.421	1191218.442						
+PD4             	605945.761	1191162.374						
+PD4             	605938.526	1191118.967						
+PD6             	606356.32	1191428.243						
+PD6             	606368.981	1191361.324						
+PD7             	606450.369	1191218.442						
+PT-12           	606831.659	1191420.451						
+PD5             	605961.168	1190995.067						
+PD5             	605985.423	1190948.903						
+PT-25           	606612.153	1190916.041						
+PT-25           	606619.194	1190945.773						
+PT-25           	606623.107	1190964.552						
+PT-25           	606616.065	1190987.242						
+PT-25           	606603.546	1191013.845						
+SB11            	606884.748	1192176.745						
+SB11            	606927	1192208.824						
+SB11            	606962.209	1192233.862						
+SB11            	606981.77	1192239.339						
+SB11            	607003.678	1192236.992						
+SB11            	607067.055	1192216.649						
+SB11            	607119.478	1192199.435						
+SB11            	607159.382	1192179.874						
+SB11            	607170.336	1192167.355						
+SB11            	607182.073	1192151.707						
+SP2             	606704.986	1192132.716						
+SP2             	606682.295	1192149.148						
+SP2             	606636.914	1192152.277						
+SP2             	606599.357	1192137.411						
+SP4             	606363.062	1191987.184						
+SP4             	606320.811	1191943.368						
+SP4             	606310.639	1191902.681						
+SP4             	606311.422	1191868.254						
+SP4             	606320.811	1191842.434						
+SP7             	606477.511	1191599.745						
+PD27            	606060.535	1191214.941						
+PD28            	605996.329	1191178.924						
+SB20            	607043.975	1191697.266						
+SB21            	607026.749	1191637.758						
+SB21            	607064.333	1191640.89						
+PD45            	606353.126	1191534.208						
+PD1             	606345.276	1191586.804						
+SB25            	607359.87	1192104.775						
+SB25            	607370.075	1192099.28						
+SB25            	607383.42	1192090.645						
+SB25            	607403.83	1192075.729						
+SB25            	607428.165	1192052.964						
+SB23            	607455.64	1192055.319						
+SB23            	607477.621	1192049.039						
+SB23            	607507.451	1192023.919						
+SB23            	607525.506	1192005.079						
+SB23            	607533.356	1191980.744						
+SB23            	607458.78	1191910.093						
+SB23            	607416.39	1191874.768						
+SB23            	607405.4	1191863.778						
+SB23            	607366.15	1191793.127						
+SP55            	606821.785	1191597.172						
+								
+[LABELS]								
+;X-Coord             Y-Coord             Label & Anchor Node								
+								
+[BACKDROP]								
+  DIMENSIONS  	604839.763	1190596.489	609232.667	1192676.462				
+ UNITS          	None							
+ FILE           	C:\Users\quocd\OneDrive\M? t?h\12345.bmp							
+ OFFSET         	0	0						
+								
+[END]								
